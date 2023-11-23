@@ -1,0 +1,602 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 91px;
+}
+
+.container .header {
+  position: fixed;
+  background-color: #40BB15;
+  width: 100%;
+  height: 91px;
+  max-width: 1332px;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.container #navbar {
+  transition: top 0.3s;
+}
+.container .navbar {
+  padding-left: 135px;
+  padding-right: 143px;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.container .navbar .container-fluid .collapse a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.2px;
+}
+.container .name-web {
+  font-weight: bold;
+  padding: 13px 30px;
+  margin-right: 41px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 133.333% */
+  letter-spacing: 0.1px;
+}
+.container .user .login {
+  margin-right: 45px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: 0.2px;
+}
+.container .user .sign-up {
+  padding: 15px 25px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: 0.2px;
+}
+.container .user .sign-up svg {
+  margin-left: 15px;
+}
+.container .shadow {
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.container .main-content {
+  margin-top: 160px;
+  margin-bottom: 80px;
+}
+.container .main-content .sub-title {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+.container .main-content .main-title {
+  color: #252B42;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  /* 125% */
+  letter-spacing: 0.2px;
+  padding: 10px 0;
+}
+.container .main-content .bottom-title {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 0.2px;
+}
+.container .card-doctors {
+  width: 348px;
+}
+.container .card {
+  border: none;
+}
+.container .card .card-activity {
+  width: 72px;
+  height: 72px;
+}
+.container .card .img {
+  position: relative;
+  height: 300px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container .card .img .sale {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 51px;
+  height: auto;
+  background-color: #E74040;
+  text-align: center;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+.container .card .img .function {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container .card .img .function button {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+.container .card .img .function .cart {
+  margin: 0 10px;
+}
+.container .card .title {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+.container .card .graphic {
+  color: #252B42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.1px;
+  padding: 10px 0;
+}
+.container .card .price {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.1px;
+}
+.container .card .price .cost {
+  margin-right: 5px;
+}
+.container .card .price .text-success-1 {
+  color: #40BB15;
+}
+.container .card .detail {
+  padding: 15px 0;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+  letter-spacing: 0.2px;
+}
+.container .card .detail svg {
+  margin-right: 5px;
+}
+.container .card .client-img .img {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+}
+.container .card .client-img .img img {
+  width: 100%;
+}
+.container .card .client-img .introduce span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.2px;
+}
+.container .card .client-img .introduce p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+.container .card .main-client-card {
+  padding: 30px;
+}
+.container .card .card-body .card-1 {
+  color: #252B42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.1px;
+}
+.container .card .card-body .text-bottom {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 0.2px;
+}
+.container .card .card-body .learn-more {
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 37px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.2px;
+  padding: 10px 20px;
+}
+.container .card .card-body .learn-more i {
+  margin-left: 3px;
+}
+.container .card .card-body .card-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 0.2px;
+}
+.container .card .card-body .download {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.container .card .card-body .download svg {
+  margin-right: 5px;
+}
+.container .card .card-body .pricing-heart {
+  width: 96px;
+  height: 96px;
+  padding: 24px 23px 24px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  margin-bottom: 35px;
+}
+.container .card .card-body .free-title {
+  color: #252B42;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 133.333% */
+  letter-spacing: 0.1px;
+  margin-bottom: 35px;
+}
+.container .card .card-body .pricing-sub-title {
+  margin-bottom: 35px;
+}
+.container .card .card-body .pricing-price strong {
+  font-size: 40px;
+  font-style: normal;
+  line-height: 50px;
+  /* 125% */
+  letter-spacing: 0.2px;
+}
+.container .card .card-body .pricing-price p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+}
+.container .card .card-body .text-pricing-bottom {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+}
+.container .card .card-body .btn-pricing {
+  width: 100%;
+  padding: 15px 40px;
+  margin-bottom: 35px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: 0.2px;
+}
+.container .card .card-body .endow .text-endow {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.2px;
+  margin-left: 10px;
+}
+.container .card .card-body .endow .check {
+  margin-bottom: 15px;
+}
+.container .card .card-body .endow .check .icon-check {
+  width: 32px;
+  height: 32px;
+  border-radius: 200px;
+}
+.container .card .card-body .endow .no-check {
+  margin-bottom: 15px;
+}
+.container .card .card-body .endow .no-check .icon-check {
+  width: 32px;
+  height: 32px;
+  border-radius: 200px;
+}
+.container .card .card-body .star {
+  margin-bottom: 10px;
+}
+.container .pricing-card {
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.container .pricing-card .new {
+  position: absolute;
+  top: -40px;
+  right: -20px;
+  display: inline-flex;
+  padding: 29px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #E77C40;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 133.333% */
+  letter-spacing: 0.1px;
+  color: white;
+  border-radius: 52px;
+}
+.container .join-us .form {
+  width: 688px;
+  margin: auto;
+  border-radius: none;
+}
+.container .join-us .form input {
+  width: 571px;
+  padding: 15px;
+  border-radius: 5px 0 0 5px;
+}
+.container .join-us .form button {
+  border-radius: 0 5px 5px 0;
+  width: 117px;
+  height: 57px;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 200% */
+  letter-spacing: 0.2px;
+}
+.container .main-title-footer {
+  color: #252B42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
+}
+.container .sub-title-footer ul {
+  list-style: none;
+  padding: 0;
+}
+.container .sub-title-footer ul li {
+  margin-bottom: 10px;
+}
+.container .sub-title-footer ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.container .sub-title-footer ul li a svg {
+  margin-right: 10px;
+}
+.container .bottom-footer {
+  padding: 25px 0;
+}
+.container .bottom-footer .made {
+  width: 600px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.container .bottom-footer .media-icon {
+  width: 236px;
+}
+.container .bottom-footer .media-icon svg:nth-child(2) {
+  margin: 0 20px;
+}
+
+.welcome {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0);
+}
+.welcome .card {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.welcome .card .card-body .hello {
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.welcome .card .card-body .welcome-title {
+  color: #252B42;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 80px;
+  /* 137.931% */
+  letter-spacing: 0.2px;
+  padding-bottom: 30px;
+}
+.welcome .card .card-body .welcome-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 150% */
+  letter-spacing: 0.2px;
+  padding-bottom: 30px;
+}
+.welcome .card .card-body .btn-text {
+  /* btn-text */
+  padding: 15px 40px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: 0.2px;
+}
+.welcome .right-welcome {
+  position: relative;
+}
+.welcome .right-welcome img {
+  position: absolute;
+  left: 173px;
+}
+.welcome .right-welcome .svg-welcome {
+  position: absolute;
+  right: 35px;
+  bottom: -15px;
+}
+.welcome .left-bg {
+  position: absolute;
+  width: 220px;
+  height: 350px;
+  background-color: aqua;
+  border-radius: 100px;
+  top: -240px;
+  left: -60px;
+  z-index: -1;
+}
+.welcome .right-bg {
+  position: absolute;
+  width: 600px;
+  height: 760px;
+  background-color: aqua;
+  border-radius: 100px;
+  top: -200px;
+  right: -150px;
+  z-index: -1;
+}
+
+.banner {
+  background-color: rgb(255, 220, 209);
+}
+.banner .container .left-banner .card-body .title-banner {
+  color: #252B42;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  /* 125% */
+  letter-spacing: 0.2px;
+}
+.banner .container .left-banner .card-body .btn {
+  border: none;
+}
+.banner .container .right-banner {
+  position: relative;
+  width: 504px;
+  height: 432px;
+}
+.banner .container .right-banner .img-1 {
+  position: absolute;
+  top: 0;
+  left: 99px;
+  right: 102px;
+  width: 300px;
+  height: 424px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.banner .container .right-banner .img-2 {
+  position: absolute;
+  z-index: 3;
+  left: 124px;
+  bottom: 10px;
+  width: 362px;
+  height: 110px;
+  flex-shrink: 0;
+}
+.banner .container .right-banner .img-3 {
+  position: absolute;
+  z-index: 3;
+  top: 48px;
+  left: 346px;
+  width: 158px;
+  height: 158px;
+  flex-shrink: 0;
+}
+.banner .container .right-banner .svg-one {
+  position: absolute;
+  top: 48px;
+  right: 102px;
+  left: 64px;
+  width: 337.671px;
+  height: 347.826px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.banner .container .right-banner .svg-two {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 53.316px;
+  height: 53.316px;
+  flex-shrink: 0;
+}
+.banner .container .right-banner .svg-three {
+  position: absolute;
+  left: 52px;
+  bottom: 36px;
+  flex-shrink: 0;
+}/*# sourceMappingURL=index.css.map */
